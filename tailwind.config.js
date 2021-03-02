@@ -3,7 +3,7 @@
 
 module.exports = {
   purge: {
-    enabled: false, // Turn on to purge also in dev
+    // enabled: true, // Turn on to purge also in dev
     content: [
       './src/**/*.js',
       './templates/**/*.twig',
