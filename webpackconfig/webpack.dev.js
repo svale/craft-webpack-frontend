@@ -20,7 +20,8 @@ module.exports = merge(common, {
     compress: true, // Enable local gzip compression
     hot: true,
     port: 8080,
-    host: 'localhost',
+    overlay: true,
+    host: '127.0.0.1',
     writeToDisk: true, // Allow creation of new files
     disableHostCheck: true,
     headers: { 'Access-Control-Allow-Origin': '*' },
