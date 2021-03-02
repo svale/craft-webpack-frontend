@@ -1,12 +1,23 @@
 # Craft Webpack Frontend
 A collection of frontend packages well suited for a better Craft CMS frontend dev experience.
 
-Inspired and informed by https://github.com/mizziness/craft3-webpack5-tailwind2-boilerplate
+# Use
+Download and unzip the entire repo  to you computer
+```
+https://github.com/svale/craft-webpack-frontend/archive/main.zip
+```
 
-# Use 
-Download and unzip the entire repo to your Craft project root folder
+Delete the following files from the download
+```
+README.md
+LICENSE
+```
+
+Update descriptions in `package.json` to fit your current project.
 
 Make sure ./node_modules is added to the project root .gitignore file
+
+---
 
 Run
 ```
@@ -30,6 +41,9 @@ If Twigpack is not installed allready
 ```
 composer require nystudio107/craft-twigpack
 ```
+
+### Credits
+Inspired and informed by https://github.com/mizziness/craft3-webpack5-tailwind2-boilerplate and https://nystudio107.com/blog/an-annotated-webpack-4-config-for-frontend-web-development
 
 ### License
 
